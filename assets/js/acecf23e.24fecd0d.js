@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapteki_plus=self.webpackChunkapteki_plus||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/apteki-plus/blog","blogTitle":"Blog","authorsListPath":"/apteki-plus/blog/authors"}')}}]);
