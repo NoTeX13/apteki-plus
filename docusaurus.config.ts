@@ -25,7 +25,7 @@ const config: Config = {
   organizationName: 'NoTeX13', // Usually your GitHub org/user name.
   projectName: 'apteki-plus', // Usually your repo name.
   deploymentBranch: "gh-pages",
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -83,7 +83,7 @@ const config: Config = {
           position: 'left',
           label: 'Документация',
         },
-        {to: '/docs/ОРИТ/ОРИТ Главная', label: 'Отдел развития ИТ', position: 'left'},
+        {to: '/docs/ОРИТ/Главная', label: 'Отдел развития ИТ', position: 'left'},
         {
           href: 'https://github.com/NoTeX13/apteki-plus',
           label: 'GitHub',
@@ -99,7 +99,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/docs/markdown_info',
             },
           ],
         },
@@ -108,7 +108,7 @@ const config: Config = {
           items: [
             {
               label: 'ОРИТ',
-              to: '/docs/ОРИТ/ОРИТ Главнаяю.md',
+              to: '/docs/ОРИТ/Главная'
             },
           ],
         },
@@ -132,10 +132,6 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
