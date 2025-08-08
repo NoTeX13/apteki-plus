@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Сайт документации АптекиПлюс',
-  tagline: 'Здесь ты сможешь познакомиться, ка командой, так и с проектной документацией!',
+  tagline: 'Здесь ты сможешь познакомиться, как с командой, так и с проектной документацией!',
   favicon: 'img/apteki-logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -73,21 +73,19 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/apteki-logo.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Документация',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/docs/ОРИТ/ОРИТ Главная', label: 'Отдел развития ИТ', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/NoTeX13/apteki-plus',
           label: 'GitHub',
           position: 'right',
         },
@@ -97,11 +95,20 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Документация',
           items: [
             {
               label: 'Tutorial',
               to: '/docs/intro',
+            },
+          ],
+        },
+        {
+          title: 'ОРИТ',
+          items: [
+            {
+              label: 'ОРИТ',
+              to: '/docs/ОРИТ/ОРИТ Главнаяю.md',
             },
           ],
         },
