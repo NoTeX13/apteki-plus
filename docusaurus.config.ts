@@ -99,7 +99,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/markdown_info',
+              to: '/docs/Инструкция',
             },
           ],
         },
